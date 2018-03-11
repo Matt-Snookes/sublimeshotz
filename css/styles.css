@@ -1,6 +1,7 @@
 body {
-    margin: 0;
-    background-color: #78b4f8;
+    background-image: url("../images/web.jpg");  
+    background-size: 100%;
+    background-attachment: fixed;      
 }
 
 img, #text {
@@ -9,8 +10,8 @@ img, #text {
     display: block;
     text-align: center;
     font-size: 40px;
-    color: #fff;
-    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    color: black;
+    text-shadow: 1px 0 0 whitesmoke, 0 -1px 0 whitesmoke, 0 1px 0 whitesmoke, -1px 0 0 whitesmoke;
 }
 
 .images{
@@ -22,26 +23,29 @@ img, #text {
     padding-top: 100px;
 }
 a:link {
-    color: green;
+    color: rgb(3, 3, 3);
     background-color: transparent;
     text-decoration: none;
 }
 
 a:visited {
-    color: pink;
+    color: rgb(3, 3, 3);
     background-color: transparent;
     text-decoration: none;
 }
 
 a:hover {
-    color: red;
+    color: #78b4f8;
     background-color: transparent;
     text-decoration: underline;
 }
 
 a:active {
-    color: yellow;
+    color: rgb(7, 7, 7);
     background-color: transparent;
     text-decoration: underline;
+}
+#title{
+    margin-top: 20px;
 }
 
