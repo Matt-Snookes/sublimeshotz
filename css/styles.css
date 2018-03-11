@@ -1,21 +1,47 @@
 body {
-   background-color: #78b4f8;
-         
+    margin: 0;
+    background-color: #78b4f8;
 }
 
-.banner { 
-    
+img, #text {
+	margin-left: auto;
+	margin-right: auto;
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
 
-div {
+.images{
     
+    border: thin;
+    border: slategray;
 }
-.title {
-    align-content: center;
-    
+#gallerybox{
+    padding-top: 100px;
 }
-.img-responsive {
-    width: 80%;
-    height: auto;
-    align-content: center;
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
 }
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
